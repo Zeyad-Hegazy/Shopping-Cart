@@ -91,7 +91,7 @@ function renderProducts() {
 				<button class="btn-add-cart" onclick="addToCart(${product.product_id})">add to cart</button>
 				<button class="btn-view" onclick="openViewProduct(${product.product_id})">quick view</button>
 			</div>
-  </div>;`;
+  </div>`;
 	});
 }
 renderProducts();
